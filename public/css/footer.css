@@ -1,0 +1,40 @@
+.footer__article{
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.footer__article--envio{
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.footer__article--seguridad{
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.fa-credit-card{
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.fa-gift{
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.fa-user-shield{
+    color:  #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}    
+.footer__derechos{
+    text-align: center;
+    font-size: 13px;
+}
+.footer__descripcion{
+    font-size: 12px;
+}
