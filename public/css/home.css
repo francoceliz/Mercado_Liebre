@@ -1,0 +1,72 @@
+.home__header{
+    background-color: var(--ColorAmarillo);
+    background-size: cover;
+    font-size: var(--TamañoCuerposTexto);
+    padding: 10px; 
+}
+.fa-magnifying-glass{
+    background-color: var(--ColorGrisClaro);
+    padding: 4px 4px 4px 4px;
+    border-radius: 2px;
+    margin: var(--margenlupa)
+}
+
+.home__header__nav1 ul li a{
+    position: relative;
+    right: 40px;
+}  
+
+.home__header__nav2{
+    position: relative;
+    right: 40px;
+} 
+
+.home__header--burger{
+    background-color: var(--ColorCeleste);
+    color: var(--ColorGrisClaro);
+    font-size: var(--TamañoTitulares);
+    display: block;
+    text-align: center;
+    margin: auto auto;
+    padding: 10px;
+    border: 1px solid var(--ColorAzul);
+    border-radius: 6px;
+    max-width: 34px;
+}
+
+.home__main{
+    padding: 10px;
+}
+
+/* .home__main__UltimaVisita{
+} */
+
+/* .home__main__Ofertas{
+} */
+
+.home__footer{
+    text-align: center;
+    padding: 10px;
+}
+
+.home__footer h4{
+    margin-top: 0;
+}
+
+.fa-credit-card{
+    font-size: var(--tamañoicono);
+    color: var(--ColorCeleste);
+    margin-bottom: var(--margenicono);
+}
+
+.fa-gift{
+    font-size: var(--tamañoicono);
+    color: var(--ColorCeleste);
+    margin-bottom: var(--margenicono);
+}
+
+.fa-user-shield{
+    font-size: var(--tamañoicono);
+    color: var(--ColorCeleste);
+    margin-bottom: var(--margenicono);
+}

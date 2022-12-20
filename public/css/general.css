@@ -1,14 +1,31 @@
-*{
+body{
+    font-family: var(--TipografiaGeneral);
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
+
+a{
+  color: var(--ColorNegro);
+  text-decoration: none;
+}
+
 li{
     list-style: none;
-    text-decoration: none;
-
+    
 }
-a{
-    color: black;
-    text-decoration: none;
+
+.Titular{
+    font-size: var(--TamañoTitulares);
+}
+
+.precio{
+font-size: var(--TamañoPrecios);
+}
+
+.descuento{
+
+    font-size: var(--TamañoDescuentos);
+}
+
+.descripcion{
+    font-size: var(--TamañoDescripciones);
 }
