@@ -1,16 +1,25 @@
+/* Mobile first */
+
 body{
     font-family: var(--TipografiaGeneral);
     margin: 0;
+    background-color: var(--ColorGrisClaro);
+}
+a{
+    color: var(--ColorNegro);
+    text-decoration: none;
+  }
+
+ul{
+    padding: 0;
 }
 
 a{
-  color: var(--ColorNegro);
-  text-decoration: none;
+    text-decoration: none;
 }
 
 li{
     list-style: none;
-    
 }
 
 .Titular{
@@ -19,13 +28,27 @@ li{
 
 .precio{
 font-size: var(--TamañoPrecios);
+margin: 0;
 }
 
 .descuento{
-
     font-size: var(--TamañoDescuentos);
+    margin: 0;
+    color: var(--ColorVerde);
 }
 
 .descripcion{
     font-size: var(--TamañoDescripciones);
+    color: var(--ColorGrisOscuro);
+    display: none;
 }
+
+/* Tablet min width 361px */
+
+@media (min-width:361px) {
+    .descripcion{
+        display: block;
+    }
+}
+
+/* Desktop min width 769px*/
